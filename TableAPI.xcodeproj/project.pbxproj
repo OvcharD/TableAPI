@@ -13,6 +13,8 @@
 		24F32DD625AF142D00A2D2DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F32DD425AF142D00A2D2DA /* Main.storyboard */; };
 		24F32DD825AF143000A2D2DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24F32DD725AF143000A2D2DA /* Assets.xcassets */; };
 		24F32DDB25AF143000A2D2DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24F32DD925AF143000A2D2DA /* LaunchScreen.storyboard */; };
+		24F32DE425AF2C9600A2D2DA /* HeroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F32DE325AF2C9600A2D2DA /* HeroViewController.swift */; };
+		24F32DE825AF2E9400A2D2DA /* HeroStats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24F32DE725AF2E9400A2D2DA /* HeroStats.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		24F32DD725AF143000A2D2DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24F32DDA25AF143000A2D2DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24F32DDC25AF143000A2D2DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24F32DE325AF2C9600A2D2DA /* HeroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroViewController.swift; sourceTree = "<group>"; };
+		24F32DE725AF2E9400A2D2DA /* HeroStats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroStats.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				24F32DCE25AF142D00A2D2DA /* AppDelegate.swift */,
 				24F32DD025AF142D00A2D2DA /* SceneDelegate.swift */,
 				24F32DD225AF142D00A2D2DA /* ViewController.swift */,
+				24F32DE325AF2C9600A2D2DA /* HeroViewController.swift */,
 				24F32DD425AF142D00A2D2DA /* Main.storyboard */,
 				24F32DD725AF143000A2D2DA /* Assets.xcassets */,
 				24F32DD925AF143000A2D2DA /* LaunchScreen.storyboard */,
 				24F32DDC25AF143000A2D2DA /* Info.plist */,
+				24F32DE725AF2E9400A2D2DA /* HeroStats.swift */,
 			);
 			path = TableAPI;
 			sourceTree = "<group>";
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24F32DE425AF2C9600A2D2DA /* HeroViewController.swift in Sources */,
 				24F32DD325AF142D00A2D2DA /* ViewController.swift in Sources */,
 				24F32DCF25AF142D00A2D2DA /* AppDelegate.swift in Sources */,
+				24F32DE825AF2E9400A2D2DA /* HeroStats.swift in Sources */,
 				24F32DD125AF142D00A2D2DA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
